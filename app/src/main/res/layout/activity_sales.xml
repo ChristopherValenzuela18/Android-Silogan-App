@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".AdminNewOrdersActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orders_list"
+        android:layout_width="match_parent"
+        android:layout_height="589dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:visibility="invisible"></androidx.recyclerview.widget.RecyclerView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="419dp"
+
+        android:background="@drawable/logss">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="73dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="475dp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="336dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="300dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="301dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="114dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="144dp"
+        android:text="TextView"
+        android:textColor="@color/colorOnSecondary"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/month"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="174dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="226dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="187dp"
+        android:text="Month Of"
+        android:textAlignment="center"
+        android:textColor="@color/colorOnSecondary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

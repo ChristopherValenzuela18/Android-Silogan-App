@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".termsAndcondi">
+
+    <RelativeLayout
+        android:id="@+id/relativeTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/termsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="TERMS AND CONDITION"
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/article1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/termsTitle"
+            android:layout_marginTop="30dp"
+            android:text="READ BEFORE YOU PROCEED"
+
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/para1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/article1"
+            android:layout_marginTop="10dp"
+
+            android:text="By using this application, you accept these terms and conditions in full. Please do not continue to use Food Services application if you do not accept all of the terms and conditions stated on this application.
+The following applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements:
+The clients or person accessing this website shall  accepting the Program’s terms and conditions."
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para1"
+            android:layout_marginTop="10dp"
+            android:text="The following applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements:
+The clients or person accessing this website shall  accepting the Program’s terms and conditions."
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para2"
+            android:layout_marginTop="10dp"
+            android:text="1. Applicability-The General Terms and Conditions below apply to all offers and transactions of cheezy silogan. Prices are subject to change.
+
+By accepting an offer or making an order, the consumer expressly accepts the applicability of these General Terms and Conditions."
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para3"
+            android:layout_marginTop="10dp"
+            android:text="2. Quality
+The cheezy silogan guarantees that all the products offered meet the standards of the concept.
+If there are any complaints the management needs to be informed immediately. Appropriate actions will be taken as soon as possible."
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para4"
+            android:layout_marginTop="10dp"
+            android:text="3. Prices/offers
+All offers made by cheezy silogan are without obligation and  cheezy silogan expressly reserves the right to change the prices, in particular if this is necessary as a result of statutory or other regulations.
+
+All prices are indicated in pesos.
+
+In certain cases, promotional prices apply. These prices are valid only during a specific period as long as stocks last. No entitlement to these prices may be invoked before or after the specific period."
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para5"
+            android:layout_marginTop="10dp"
+            android:text="4. Cancellations
+
+The order will be forfeited once the customer cancelled or failed to receive its order.
+
+Before confirming your reservation, always check carefully that you have reserved the correct (number of) persons. Wrongfully ordered (numbers of) persons are not refundable.
+
+All purchases are final. The order bought here cannot be returned for any refunds whatsoever; group bookings paid for on the application likewise cannot be cancelled by the purchaser and refunds claimed for any reason whatsoever."
+
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para6"
+            android:layout_marginTop="10dp"
+            android:text="5. Payments
+
+All payments are in peso.
+Methods of payment we accept: gcash. "
+            android:textColor="@color/colorOnSecondary"
+
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/para8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para7"
+            android:layout_marginTop="10dp"
+            android:text="6. Other provisions
+
+If one or more of the provisions in these Terms and Conditions or any other agreement with cheezy silogan are in conflict with any applicable legal regulation, the provision in question will lapse and be replaced by a new comparable stipulation admissible by law to be determined by cheezy silogan."
+
+            android:textColor="@color/colorOnSecondary"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/para8"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="14dp"
+            android:text="I ACCEPT"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/para8"
+            android:layout_marginLeft="2dp"
+            android:text="I CANT ACCEPT"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1020275804072",
+    "project_id": "test-dubai-cafe",
+    "storage_bucket": "test-dubai-cafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020275804072:android:8859f9a50e096924887f9d",
+        "android_client_info": {
+          "package_name": "com.dubai.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020275804072-gcb5ca67fqsn2d474nktefo3k6tkm8dg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYHRceJlvDRZM1FiOWW3gkLBje_tX3tGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020275804072-gcb5ca67fqsn2d474nktefo3k6tkm8dg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
