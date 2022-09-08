@@ -7,7 +7,7 @@
     android:background="@color/white"
 
 
-    tools:context=".RegisterActivity">
+    tools:context=".activity.RegisterActivity">
 
     <TextView
         android:id="@+id/register_applogo"

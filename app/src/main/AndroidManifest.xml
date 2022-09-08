@@ -22,14 +22,14 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".AdminMaintainProductsActivity2"
+            android:name=".activity.AdminMaintainProductsActivity2"
             android:exported="false" />
         <activity
             android:name=".activity.HomeActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".activity.SettinsActivity" />
-        <activity android:name=".SearchProductsActivity" />
-        <activity android:name=".RegisterActivity" />
+        <activity android:name=".activity.SearchProductsActivity" />
+        <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.ProductDetailsActivity" />
         <activity android:name=".activity.LoginActivity" />
         <activity android:name=".activity.ConfirmFinalOrderActivity" />

@@ -19,11 +19,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
-import com.dubai.shopping.AdminMaintainProductsActivity2;
 import com.dubai.shopping.Model.Products;
 import com.dubai.shopping.Prevalent.Prevalent;
 import com.dubai.shopping.R;
-import com.dubai.shopping.SearchProductsActivity;
 import com.dubai.shopping.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
