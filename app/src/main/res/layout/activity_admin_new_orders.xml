@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/intro_title_color"
 
-    tools:context=".AdminNewOrdersActivity">
+    tools:context=".activity.AdminNewOrdersActivity">
     <RelativeLayout
         android:id="@+id/r2"
         android:layout_width="match_parent"

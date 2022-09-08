@@ -1,4 +1,4 @@
-package com.dubai.shopping;
+package com.dubai.shopping.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -19,8 +19,11 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
+import com.dubai.shopping.AdminMaintainProductsActivity2;
 import com.dubai.shopping.Model.Products;
 import com.dubai.shopping.Prevalent.Prevalent;
+import com.dubai.shopping.R;
+import com.dubai.shopping.SearchProductsActivity;
 import com.dubai.shopping.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -98,7 +101,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this,CartActivity.class);
+                Intent intent = new Intent(HomeActivity.this, CartActivity.class);
                 startActivity(intent);
             }
         });
@@ -133,12 +136,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                             public void onClick(View view) {
                                 if(type.equals("Admin"))
                                 {
-                                    Intent intent =new Intent(HomeActivity.this,AdminMaintainProductsActivity2.class);
+                                    Intent intent =new Intent(HomeActivity.this, AdminMaintainProductsActivity2.class);
                                     intent.putExtra("pid",model.getPid());
                                     startActivity(intent);
                                 }
                                 else{
-                                    Intent intent =new Intent(HomeActivity.this,ProductDetailsActivity.class);
+                                    Intent intent =new Intent(HomeActivity.this, ProductDetailsActivity.class);
                                     intent.putExtra("pid",model.getPid());
                                     startActivity(intent);
                                 }
@@ -202,18 +205,18 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent(HomeActivity.this,CartActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_search) {
-            Intent intent = new Intent(HomeActivity.this,SearchProductsActivity.class);
+            Intent intent = new Intent(HomeActivity.this, SearchProductsActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_categories) {
 
         } else if (id == R.id.nav_settings) {
-            Intent intent=new Intent(HomeActivity.this,SettinsActivity.class);
+            Intent intent=new Intent(HomeActivity.this, SettinsActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_logout) {
             Paper.book().destroy();
-            Intent intent=new Intent(HomeActivity.this,MainActivity.class);
+            Intent intent=new Intent(HomeActivity.this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |Intent.FLAG_ACTIVITY_CLEAR_TASK );
             startActivity(intent);
             finish();

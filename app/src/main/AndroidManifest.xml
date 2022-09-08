@@ -15,34 +15,34 @@
         android:theme="@style/Theme.Ekart"
         tools:replace="android:theme">
         <activity
-            android:name=".asasas"
+            android:name=".activity.asasas"
             android:exported="false" />
         <activity
-            android:name=".SalesActivity"
+            android:name=".activity.SalesActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".AdminMaintainProductsActivity2"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activity.HomeActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".SettinsActivity" />
+        <activity android:name=".activity.SettinsActivity" />
         <activity android:name=".SearchProductsActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProductDetailsActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".ConfirmFinalOrderActivity" />
-        <activity android:name=".CartActivity" />
-        <activity android:name=".AdminUserProductsActivity"
+        <activity android:name=".activity.ProductDetailsActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.ConfirmFinalOrderActivity" />
+        <activity android:name=".activity.CartActivity" />
+        <activity android:name=".activity.AdminUserProductsActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".AdminNewOrdersActivity"
+        <activity android:name=".activity.AdminNewOrdersActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".AdminCategoryActivity"
+        <activity android:name=".activity.AdminCategoryActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".AdminAddNewProductActivity" />
-        <activity android:name=".termsAndcondi" />
-        <activity android:name=".MainActivity"
+        <activity android:name=".activity.AdminAddNewProductActivity" />
+        <activity android:name=".activity.termsAndcondi" />
+        <activity android:name=".activity.MainActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

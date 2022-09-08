@@ -1,4 +1,4 @@
-package com.dubai.shopping;
+package com.dubai.shopping.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.dubai.shopping.Prevalent.Prevalent;
+import com.dubai.shopping.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

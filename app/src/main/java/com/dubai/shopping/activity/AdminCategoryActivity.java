@@ -1,4 +1,4 @@
- package com.dubai.shopping;
+ package com.dubai.shopping.activity;
 
 
 import android.os.Bundle;
@@ -9,7 +9,9 @@ import android.content.Intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AdminCategoryActivity extends AppCompatActivity {
+import com.dubai.shopping.R;
+
+ public class AdminCategoryActivity extends AppCompatActivity {
     private ImageView tShirts, sportsTShirts, femaleDresses, sweathers;
     private ImageView glasses, hatsCaps, walletsBagsPurses, shoes;
     private ImageView headPhonesHandFree, Laptops, watches, mobilePhones;
@@ -29,7 +31,7 @@ addi= (Button) findViewById(R.id.addmenu);
         salesbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(AdminCategoryActivity.this,SalesActivity.class);
+                Intent intent= new Intent(AdminCategoryActivity.this, SalesActivity.class);
                 startActivity(intent);
 
 
@@ -52,7 +54,7 @@ addi= (Button) findViewById(R.id.addmenu);
         LogoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(AdminCategoryActivity.this,MainActivity.class);
+                Intent intent= new Intent(AdminCategoryActivity.this, MainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish();
@@ -63,7 +65,7 @@ addi= (Button) findViewById(R.id.addmenu);
         CheckOrdersBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(AdminCategoryActivity.this,AdminNewOrdersActivity.class);
+                Intent intent= new Intent(AdminCategoryActivity.this, AdminNewOrdersActivity.class);
                 startActivity(intent);
 
             }
@@ -77,7 +79,7 @@ addi= (Button) findViewById(R.id.addmenu);
             @Override
             public void onClick(View view)
             {
-                Intent intent = new Intent(AdminCategoryActivity.this, com.dubai.shopping.AdminAddNewProductActivity.class);
+                Intent intent = new Intent(AdminCategoryActivity.this, AdminAddNewProductActivity.class);
                 intent.putExtra("category", "tShirts");
                 startActivity(intent);
             }

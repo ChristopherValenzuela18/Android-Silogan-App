@@ -18,6 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.dubai.shopping.Model.Products;
 import com.dubai.shopping.ViewHolder.ProductViewHolder;
+import com.dubai.shopping.activity.ProductDetailsActivity;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
@@ -69,7 +70,7 @@ public class SearchProductsActivity extends AppCompatActivity {
                         holder.itemView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                Intent intent =new Intent(SearchProductsActivity.this,ProductDetailsActivity.class);
+                                Intent intent =new Intent(SearchProductsActivity.this, ProductDetailsActivity.class);
                                 intent.putExtra("pid",model.getPid());
                                 startActivity(intent);
                             }

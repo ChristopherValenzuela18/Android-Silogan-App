@@ -1,4 +1,4 @@
-package com.dubai.shopping;
+package com.dubai.shopping.activity;
 
 
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.dubai.shopping.Model.Cart;
 import com.dubai.shopping.Prevalent.CartViewHolder;
+import com.dubai.shopping.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;

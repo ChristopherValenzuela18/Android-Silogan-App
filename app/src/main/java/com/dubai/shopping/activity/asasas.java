@@ -1,8 +1,10 @@
-package com.dubai.shopping;
+package com.dubai.shopping.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.dubai.shopping.R;
 
 public class asasas extends AppCompatActivity {
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
 
-    tools:context=".AdminAddNewProductActivity">
+    tools:context=".activity.AdminAddNewProductActivity">
     <ImageView
         android:id="@+id/select_product_image"
         android:layout_width="350dp"
